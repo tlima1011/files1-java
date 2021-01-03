@@ -31,7 +31,7 @@ public class Program {
 				bw.write(product.getProductName() + "," + String.format("%.2f", product.total()));
 				bw.newLine();
 			}
-			System.out.println("CREATED FILE summary.csv with Sucess");
+			System.out.println("***CREATED FILE summary.csv with Sucess***");
 		} catch (IOException e) {
 			System.out.println("Falha ao escrever o arquivo!!!");
 			e.printStackTrace();
